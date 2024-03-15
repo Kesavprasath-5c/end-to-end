@@ -32,6 +32,7 @@ public class Clent_qa {
 	Thread.sleep(3000);
 	driver.findElement(By.xpath("//span[contains(text(), 'Finish')]")).click();
 	driver.findElement(By.xpath("//a[contains(text(), 'Draft')]")).click();
+	driver.findElement(By.cssSelector(".ant-modal-close")).click();
 	driver.findElement(By.xpath("//button[contains(text(),'Clear All')]")).click();
 	driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/main/div/div/div/div/div[2]/div/div/div/div/div/div/table/tbody/tr[2]/td[8]/div/div/div[2]")).click();
 	driver.findElement(By.xpath("//span[contains(text(), 'Next')]")).click();
